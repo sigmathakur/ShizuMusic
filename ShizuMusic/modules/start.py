@@ -65,22 +65,22 @@ async def start_handler(_, message: Message) -> None:
             "<b>│❍ ᴄʟɪᴄᴋ ʜᴇʟᴘ ғᴏʀ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs.</b>\n"
             "<b>├────────────────────▣</b>\n"
             f"<b>│❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ » "
-            f"<a href='https://t.me/PBXCHATS'>sʜɪᴢᴜ-ᴍᴜsɪᴄ™</a></b>\n"
+            f"<a href='https://t.me/iamthakur007'>ᴛɢ-ᴍᴀʀᴋᴇᴛ™</a></b>\n"
             "<b>╰────────────────────▣</b>"
         )
         kb = InlineKeyboardMarkup([
-            [InlineKeyboardButton("⛩️ ᴧᴅᴅ мᴇ ʙᴧʙʏ ⛩️",
+            [InlineKeyboardButton(" ᴧᴅᴅ мᴇ ʙᴧʙʏ ",
                                   url=f"{config.BOT_LINK}?startgroup=true")],
             [
-                InlineKeyboardButton("🍬 sᴜᴘᴘᴏʀᴛ 🍬", url=config.SUPPORT_GROUP),
-                InlineKeyboardButton("🍹 ᴜᴘᴅᴀᴛᴇs 🍹",  url=config.UPDATES_CHANNEL),
+                InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ ", url=config.SUPPORT_GROUP),
+                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ",  url=config.UPDATES_CHANNEL),
             ],
-            [InlineKeyboardButton("🏩 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🏩",
+            [InlineKeyboardButton(" ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ",
                                   callback_data="show_help")],
             [
-                InlineKeyboardButton("🫧 ᴏᴡɴᴇʀ 🫧",
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ ",
                                      url=f"tg://user?id={config.OWNER_ID}"),
-                InlineKeyboardButton("🍡 sᴏᴜʀᴄᴇ 🍡",
+                InlineKeyboardButton(" sᴏᴜʀᴄᴇ ",
                                      url="https://github.com/Badmunda05/ShizuMusic/fork"),
             ],
         ])
@@ -122,11 +122,11 @@ async def start_handler(_, message: Message) -> None:
         )
         kb = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("⛩️ ᴧᴅᴅ мᴇ ʙᴧʙʏ ⛩️",
+                InlineKeyboardButton(" ᴧᴅᴅ мᴇ ʙᴧʙʏ ",
                                      url=f"{config.BOT_LINK}?startgroup=true"),
-                InlineKeyboardButton("🍬 sᴜᴘᴘᴏʀᴛ 🍬", url=config.SUPPORT_GROUP),
+                InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ ", url=config.SUPPORT_GROUP),
             ],
-            [InlineKeyboardButton("🏩 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🏩",
+            [InlineKeyboardButton(" ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ",
                                   callback_data="show_help")],
         ])
 
@@ -219,7 +219,7 @@ async def help_handler(_, message: Message) -> None:
             "<b>│📜 ᴄʜᴏᴏsᴇ ᴀ ᴄᴀᴛᴇɢᴏʀʏ :</b>\n"
             "<b>├────────────────────▣</b>\n"
             f"<b>│❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ » "
-            f"<a href='https://t.me/PBXCHATS'>sʜɪᴢᴜ-ᴍᴜsɪᴄ™</a></b>\n"
+            f"<a href='https://t.me/iamthakur007'>ᴛɢ-ᴍᴀʀᴋᴇᴛ™</a></b>\n"
             "<b>╰────────────────────▣</b>"
         ),
         parse_mode=ParseMode.HTML,
