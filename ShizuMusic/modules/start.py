@@ -61,23 +61,23 @@ async def start_handler(_, message: Message) -> None:
         kb = InlineKeyboardMarkup([
             [
                 InlineKeyboardButton(
-                    "⛩️ ᴧᴅᴅ мᴇ ʙᴧʙʏ ⛩️",
+                    " ᴧᴅᴅ мᴇ ʙᴧʙʏ ",
                     url=f"{config.BOT_LINK}?startgroup=true"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    "🍬 sᴜᴘᴘᴏʀᴛ 🍬",
+                    " sᴜᴘᴘᴏʀᴛ ",
                     url=config.SUPPORT_GROUP
                 ),
                 InlineKeyboardButton(
-                    "🍹 ᴜᴘᴅᴀᴛᴇs 🍹",
+                    " ᴜᴘᴅᴀᴛᴇs ",
                     url=config.UPDATES_CHANNEL
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "🏩 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🏩",
+                    " ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ",
                     callback_data="show_help"
                 )
             ],
@@ -125,17 +125,17 @@ async def start_handler(_, message: Message) -> None:
         kb = InlineKeyboardMarkup([
             [
                 InlineKeyboardButton(
-                    "⛩️ ᴧᴅᴅ мᴇ ʙᴧʙʏ ⛩️",
+                    " ᴧᴅᴅ мᴇ ʙᴧʙʏ ",
                     url=f"{config.BOT_LINK}?startgroup=true"
                 ),
                 InlineKeyboardButton(
-                    "🍬 sᴜᴘᴘᴏʀᴛ 🍬",
+                    " sᴜᴘᴘᴏʀᴛ ",
                     url=config.SUPPORT_GROUP
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "🏩 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🏩",
+                    "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ",
                     callback_data="show_help"
                 )
             ],
